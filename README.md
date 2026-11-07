@@ -75,7 +75,7 @@ read(grant): live and not revoked? -> trail entry -> notice -> resolver values
 2. **Consent.** The user approves one exact request, or a standing rule names the agent, a field glob and a longest time. A changed purpose or field list is a new request. A `public` field needs no approval only in a scope made with `grantPublic: true`: the CLI and the MCP server set it for the local agents you start. The extension does not, so a web page gets nothing, public fields included, without your approval or a standing rule.
 3. **Exchange.** A read returns only the granted fields. A `derive` grant gives the smaller answer, for example a budget band in place of the number.
 4. **Notice.** foxscope calls `notify` before it reads a value. If the notice fails, the read fails.
-5. **Trail.** Each request, refusal, grant, denial, read, refused read, revoke and rule change is a [foxtrail](https://github.com/pooriaarab/foxtrail) entry. The trail holds field names and ids, never values.
+5. **Trail.** Each request, refusal, grant, denial, read, refused read, revoke and rule change is a [foxtrail](https://github.com/itsryanarmani/foxtrail) entry. The trail holds field names and ids, never values.
 
 `private` fields never reach an agent, also when a rule matches them.
 
@@ -235,7 +235,7 @@ pnpm e2e         # the Firefox E2E; FOXKIT_BROWSER=ichabod runs it on Ichabod
 ## Status
 
 foxscope 0.x can change its API and its state format before 1.0.
-Report problems through [GitHub issues](https://github.com/pooriaarab/foxscope/issues).
+Report problems through [GitHub issues](https://github.com/itsryanarmani/foxscope/issues).
 
 ## License
 
