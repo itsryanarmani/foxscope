@@ -7,9 +7,9 @@
   "author": "Pooria Arab",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooriaarab/foxscope.git"
+    "url": "git+https://github.com/itsryanarmani/foxscope.git"
   },
-  "homepage": "https://github.com/pooriaarab/foxscope#readme",
+  "homepage": "https://github.com/itsryanarmani/foxscope#readme",
   "packageManager": "pnpm@11.10.0",
   "engines": {
     "node": ">=24"
